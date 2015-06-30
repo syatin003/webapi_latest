@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepan.WebApi", "Stepan.WebApi\Stepan.WebApi.csproj", "{2E83DE59-711D-41B3-B3F3-6A953A8FC832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepan.Common", "Stepan.Common\Stepan.Common.csproj", "{940484C8-3386-49EA-9550-6558ACEE8013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepan.Repository", "Stepan.Repository\Stepan.Repository.csproj", "{22B82BB4-3C8E-47E7-9444-0BCA5AA84368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepan.Service", "Stepan.Service\Stepan.Service.csproj", "{87F9C88C-5493-4B17-949E-08B2AC9C7DB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E83DE59-711D-41B3-B3F3-6A953A8FC832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E83DE59-711D-41B3-B3F3-6A953A8FC832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E83DE59-711D-41B3-B3F3-6A953A8FC832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E83DE59-711D-41B3-B3F3-6A953A8FC832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940484C8-3386-49EA-9550-6558ACEE8013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940484C8-3386-49EA-9550-6558ACEE8013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940484C8-3386-49EA-9550-6558ACEE8013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940484C8-3386-49EA-9550-6558ACEE8013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B82BB4-3C8E-47E7-9444-0BCA5AA84368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B82BB4-3C8E-47E7-9444-0BCA5AA84368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B82BB4-3C8E-47E7-9444-0BCA5AA84368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B82BB4-3C8E-47E7-9444-0BCA5AA84368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F9C88C-5493-4B17-949E-08B2AC9C7DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F9C88C-5493-4B17-949E-08B2AC9C7DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F9C88C-5493-4B17-949E-08B2AC9C7DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F9C88C-5493-4B17-949E-08B2AC9C7DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

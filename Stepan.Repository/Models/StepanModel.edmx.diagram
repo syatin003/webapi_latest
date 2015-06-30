@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a375181615f54ff39b85950387e56101" Name="Diagram1">
+        <EntityTypeShape EntityType="StepanEktron_oldModel.BusinessUnit" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.country_tbl" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.ProductFinder" Width="1.5" PointX="6.125" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.ProductFinderLink" Width="1.75" PointX="5.625" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.ProductFinderTaxonomy" Width="2.25" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.ProductTaxonomySummary" Width="1.5" PointX="8" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.region_tbl" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.SalesOffice" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.SalesOfficeServiceLocation" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.StepanUser" Width="1.5" PointX="3.875" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="StepanEktron_oldModel.FK_SalesOfficeServiceLocations_BusinessUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="StepanEktron_oldModel.FK_region_country_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="StepanEktron_oldModel.FK_ProductFinderLinks_ProductFinder" ManuallyRouted="false" />
+        <AssociationConnector Association="StepanEktron_oldModel.FK_ProductFinderLinks_ProductFinderTaxonomies" ManuallyRouted="false" />
+        <AssociationConnector Association="StepanEktron_oldModel.FK_SalesOfficeServiceLocations_SalesOffices" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="StepanEktron_oldModel.Note" Width="1.5" PointX="3.5" PointY="8.25" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
